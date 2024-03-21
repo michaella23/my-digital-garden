@@ -89,11 +89,11 @@ a:focus {
 .container {
     background-color: var(--forest-bg);
     color: var(--mint-bg);
-    padding: 1.5em;
-    border-radius: 8px;
-    display: flex;
+    padding: .2em;
+    border-radius: 10px;
+    /* display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px; */
 }
 
 .container a {
@@ -104,6 +104,15 @@ a:focus {
 .container a:focus {
     background-color: var(--mint-bg);
     color: var(--forest-bg);
+}
+
+.inner {
+    border-radius: 8px;
+    border: 1px solid var(--mint-bg);
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .about-gardens {
