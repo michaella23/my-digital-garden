@@ -29,31 +29,19 @@ img {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
-
-
-/* .header {
-    gap: 0;
-    justify-content: center;
-} */
 
 header,
 main,
 section,
 footer {
     width: 100%;
-    padding: 1em;
+    padding: 1.4em;
 }
 
-
-
-/* main > * {
-    border: 1px solid red;
-} */
-
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .logo {
@@ -141,7 +129,7 @@ a:focus {
     }
 
     #home h2 {
-        margin: 1em 0;
+        margin: 4em 0 0;
     }
 
     main {
@@ -149,4 +137,8 @@ a:focus {
         grid-template-columns: 1fr 1fr;
         gap: 2em;
     } 
+
+    .about-gardens p {
+        margin-bottom: 4em;
+    }
 }
