@@ -10,6 +10,7 @@
 }
 
 html, body {
+    font-size: 1.2rem;
     margin: 0;
     background-color: var(--mint-bg);
     color: var(--forest-bg);
@@ -29,7 +30,7 @@ img {
 }
 
 h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 header,
@@ -49,9 +50,9 @@ h2 {
     font-size: 1.4rem;
 }
 
-.logo {
-    width: 50px;
-    aspect-ratio: 1/1;
+.fa-heart {
+    font-size: 1.8rem;
+    color: rgb(246, 145, 187);
 }
 
 .attribution {
@@ -91,9 +92,6 @@ a:focus {
     color: var(--mint-bg);
     padding: .2em;
     border-radius: 10px;
-    /* display: flex;
-    flex-direction: column;
-    gap: 10px; */
 }
 
 .container a {
@@ -109,7 +107,7 @@ a:focus {
 .inner {
     border-radius: 8px;
     border: 1px solid var(--mint-bg);
-    padding: 1.5em;
+    padding: 1.2em;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -145,14 +143,20 @@ a:focus {
     .header,
     .nav ul {
         justify-content: end;
+        align-items: center;
     }
 
-    .plant-img {
-        margin-top: 3em;
+    h1 {
+        font-size: 5vw;
+        padding-bottom: 0.4rem;
     }
 
-    #home h2 {
-        margin: 4em 0 0;
+   .fa-heart {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 3.5vw;
     }
 
     main {
