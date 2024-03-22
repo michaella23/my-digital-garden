@@ -10,7 +10,7 @@
 }
 
 html, body {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0;
     background-color: var(--mint-bg);
     color: var(--forest-bg);
@@ -30,7 +30,7 @@ img {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 header,
@@ -47,11 +47,11 @@ footer {
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.24rem;
 }
 
 .fa-heart {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: rgb(246, 145, 187);
 }
 
